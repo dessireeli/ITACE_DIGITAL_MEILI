@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Ing. Benjamin Limon Martinez",
+    "academia": "Tecnología",
+    "materias": "Programación Web, Inteligencia Artificial",
+    "semestres": "5° Semestre"
+  },
+  {
+    "nombre": "Lic. Luis Lerma",
+    "academia": "Humanidades",
+    "materias": "Conciencia Histórica",
+    "semestres": "5° Semestre"
+  },
+  {
+    "nombre": "Ing. Yuridia Cepeda",
+    "academia": "Humanidades",
+    "materias": "Inglés",
+    "semestres": "5° Semestre"
+  },
+  {
+    "nombre": "Mtra. Mildred Reyes",
+    "academia": "Ciencias",
+    "materias": "Matemáticas Aplicadas, Física II",
+    "semestres": "5° Semestre"
+  },
+  {
+    "nombre": "Ing. L.F. Jasso",
+    "academia": "Tecnología",
+    "materias": "Ciberseguridad, Redes de Cómputo",
+    "semestres": "5° Semestre"
+  },
+  {
+    "nombre": "J. Trinidad Hernandez",
+    "academia": "Ciencias",
+    "materias": "La Energía en la Comunidad, Física",
+    "semestres": "5° Semestre"
+  }
+]

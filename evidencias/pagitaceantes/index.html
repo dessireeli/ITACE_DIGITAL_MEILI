@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITACE - Instituto Tamaulipeco de Capacitación para el Empleo</title>
+    <!-- FontAwesome para Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. ENCABEZADO Y NAVEGACIÓN -->
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="logo-text">
+                <h1>ITACE</h1>
+                <span>Excelencia Educativa</span>
+            </div>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menú">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#portada" class="nav-link active"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#historia" class="nav-link"><i class="fas fa-book-open"></i> Historia</a></li>
+                <li><a href="#mision" class="nav-link"><i class="fas fa-bullseye"></i> Identidad</a></li>
+                <li><a href="#carreras" class="nav-link"><i class="fas fa-laptop-code"></i> Especialidades</a></li>
+                <li><a href="#destacado" class="nav-link"><i class="fas fa-star"></i> Destacado</a></li>
+                <li><a href="#galeria" class="nav-link"><i class="fas fa-images"></i> Galería</a></li>
+                <li><a href="#gifs" class="nav-link"><i class="fas fa-heart"></i> Valores</a></li>
+                <li><a href="#videos" class="nav-link"><i class="fas fa-video"></i> Videos</a></li>
+                <li><a href="#comparativa" class="nav-link"><i class="fas fa-table"></i> Oferta</a></li>
+                <li><a href="#curiosidades" class="nav-link"><i class="fas fa-lightbulb"></i> Datos</a></li>
+                <li><a href="#contacto" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+        </nav>
+        <button id="themeToggleBtn" class="btn-theme"><i class="fas fa-moon"></i></button>
+    </header>
+
+    <main>
+        <!-- 2. PORTADA PRINCIPAL (Hero Section) -->
+        <section id="portada" class="hero">
+            <div class="hero-content fade-in">
+                <span class="badge">Bienvenidos al ITACE</span>
+                <h1 class="hero-title">Formando Profesionales Técnicos de Excelencia</h1>
+                <p class="hero-phrase">"Capacitación técnica de calidad para el desarrollo y futuro de Tamaulipas."</p>
+                <div class="hero-buttons">
+                    <a href="#carreras" class="btn btn-primary"><i class="fas fa-arrow-right"></i> Explorar Carreras</a>
+                    <a href="#videos" class="btn btn-secondary"><i class="fas fa-play-circle"></i> Ver Recorrido</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SECCIÓN HISTORIA -->
+        <section id="historia" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nuestra Historia y Origen</h2>
+                    <div class="divider"></div>
+                    <p>Conoce la trayectoria de nuestra institución educativa</p>
+                </div>
+                <div class="history-grid">
+                    <article class="history-card">
+                        <h3><i class="fas fa-university"></i> ¿De qué trata el ITACE?</h3>
+                        <p>El Instituto Tamaulipeco de Capacitación para el Empleo es un organismo descentralizado que imparte educación media superior y capacitación técnica de alto nivel profesional.</p>
+                    </article>
+                    <article class="history-card">
+                        <h3><i class="fas fa-users"></i> Comunidad Escolar</h3>
+                        <p>Alumnos, docentes y personal administrativo conforman una comunidad orientada al aprendizaje práctico, valores cívicos y desarrollo industrial.</p>
+                    </article>
+                    <article class="history-card">
+                        <h3><i class="fas fa-map-marker-alt"></i> Contexto y Ubicación</h3>
+                        <p>Nuestros planteles estratégicamente distribuidos en el estado responden al reto de vincular la educación superior con las demandas laborales de la región.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SECCIÓN IDENTIDAD -->
+        <section id="mision" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Por Qué Elegir el ITACE</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="opinion-bubble-container">
+                    <div class="opinion-bubble">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <h3>Visión y Experiencia Estudiantil</h3>
+                        <p>Pertenecer al ITACE nos brinda la oportunidad de adquirir conocimientos prácticos en talleres reales desde el primer semestre, preparándonos con disciplina, valores y habilidades técnicas competitivas para el sector productivo.</p>
+                        <span class="bubble-tag">Orgullo ITACE</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SECCIÓN TARJETAS DE CARRERAS / ESPECIALIDADES -->
+        <section id="carreras" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Especialidades Técnicas</h2>
+                    <div class="divider"></div>
+                    <p>Pasa el mouse sobre cada tarjeta para conocer más</p>
+                </div>
+                <div class="cards-grid">
+                    <!-- Tarjeta 1 -->
+                    <article class="card-item">
+                        <div class="card-img-box">
+                            <img src="carrera1.png" alt="Inteligencia Artificial">
+                        </div>
+                        <div class="card-body">
+                            <h3>Inteligencia Artificial</h3>
+                            <span class="badge-card">Técnico</span>
+                            <p><strong>Descripción:</strong> Diagnóstico y reparación de maquinaria industrial.</p>
+                            <p><strong>Habilidades:</strong> Electricidad, neumática e hidráulica.</p>
+                            <p><strong>Perfil:</strong> Analítico, disciplinado y proactivo.</p>
+                        </div>
+                    </article>
+                    <!-- Tarjeta 2 -->
+                    <article class="card-item">
+                        <div class="card-img-box">
+                            <img src="carrera2.webp" alt="Ciberseguridad">
+                        </div>
+                        <div class="card-body">
+                            <h3>Ciberseguridad</h3>
+                            <span class="badge-card">Técnico</span>
+                            <p><strong>Descripción:</strong> Desarrollo de software, bases de datos y soporte.</p>
+                            <p><strong>Habilidades:</strong> Lógica de programación y diseño web.</p>
+                            <p><strong>Perfil:</strong> Innovador y enfocado a la resolución de problemas.</p>
+                        </div>
+                    </article>
+                    <!-- Tarjeta 3 -->
+                    <article class="card-item">
+                        <div class="card-img-box">
+                            <img src="carrera3.jpg" alt="Diseño Gráfico Digital">
+                        </div>
+                        <div class="card-body">
+                            <h3>Diseño Gráfico Digital</h3>
+                            <span class="badge-card">Técnico</span>
+                            <p><strong>Descripción:</strong> Mantenimiento de hardware, redes y conectividad.</p>
+                            <p><strong>Habilidades:</strong> Configuración de redes y ensamblaje.</p>
+                            <p><strong>Perfil:</strong> Detallista y enfocado en atención técnica.</p>
+                        </div>
+                    </article>
+                    <!-- Tarjeta 4 -->
+                    <article class="card-item">
+                        <div class="card-img-box">
+                            <img src="carrera4.jpeg" alt="Mantenimiento Automotriz">
+                        </div>
+                        <div class="card-body">
+                            <h3>Mantenimiento Automotriz</h3>
+                            <span class="badge-card">Técnico</span>
+                            <p><strong>Descripción:</strong> Creación de contenido visual, editorial y publicitario.</p>
+                            <p><strong>Habilidades:</strong> Manejo de herramientas digitales y creatividad.</p>
+                            <p><strong>Perfil:</strong> Creativo, visual y comunicativo.</p>
+                        </div>
+                    </article>
+                    <!-- Tarjeta 5 -->
+                    <article class="card-item">
+                        <div class="card-img-box">
+                            <img src="carrera5.jpeg" alt="Semiconductores y Microelectrónica">
+                        </div>
+                        <div class="card-body">
+                            <h3>Semiconductores y Microelectrónica</h3>
+                            <span class="badge-card">Técnico</span>
+                            <p><strong>Descripción:</strong> Montaje de circuitos y automatización.</p>
+                            <p><strong>Habilidades:</strong> Microcontroladores, soldadura técnica.</p>
+                            <p><strong>Perfil:</strong> Metódico, preciso y observador.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. SECCIÓN ÁREA DESTACADA -->
+        <section id="destacado" class="section section-featured">
+            <div class="container">
+                <div class="featured-card">
+                    <div class="featured-img">
+                        <img src="destacado.jpeg" alt="Plantel Destacado ITACE">
+                    </div>
+                    <div class="featured-info">
+                        <span class="badge-gold"><i class="fas fa-award"></i> Plantel de Excelencia</span>
+                        <h2>CONOCE AL INSTITUTO ITACE</h2>
+                        <p>Nuestra área destacada cuenta con infraestructura de última generación, permitiendo que las prácticas técnicas se desarrollen bajo estándares exigidos por la industria laboral moderna.</p>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Equipamiento tecnológico actualizado</li>
+                            <li><i class="fas fa-check-circle"></i> Capacitación práctica supervisada</li>
+                            <li><i class="fas fa-check-circle"></i> Vinculación directa con empresas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. GALERÍA DE FOTOS -->
+        <section id="galeria" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Galería Institucional</h2>
+                    <div class="divider"></div>
+                    <p>Explora nuestras instalaciones, eventos y vida estudiantil</p>
+                </div>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="imagen1.jpg" alt="Foto 1"><div class="overlay"><span>Instalaciones</span></div></div>
+                    <div class="gallery-item"><img src="imagen2.jpg" alt="Foto 2"><div class="overlay"><span>Talleres</span></div></div>
+                    <div class="gallery-item"><img src="imagen3.jpg" alt="Foto 3"><div class="overlay"><span>Aulas</span></div></div>
+                    <div class="gallery-item"><img src="imagen4.jpg" alt="Foto 4"><div class="overlay"><span>Laboratorios</span></div></div>
+                    <div class="gallery-item"><img src="imagen5.jpg" alt="Foto 5"><div class="overlay"><span>Eventos</span></div></div>
+                    <div class="gallery-item"><img src="imagen6.jpg" alt="Foto 6"><div class="overlay"><span>Deportes</span></div></div>
+                    <div class="gallery-item"><img src="imagen7.jpg" alt="Foto 7"><div class="overlay"><span>Actos Cívicos</span></div></div>
+                    <div class="gallery-item"><img src="imagen8.jpg" alt="Foto 8"><div class="overlay"><span>Graduación</span></div></div>
+                    <div class="gallery-item"><img src="imagen9.jpg" alt="Foto 9"><div class="overlay"><span>Prácticas</span></div></div>
+                    <div class="gallery-item"><img src="imagen10.jpg" alt="Foto 10"><div class="overlay"><span>Auditorio</span></div></div>
+                    <div class="gallery-item"><img src="imagen11.jpg" alt="Foto 11"><div class="overlay"><span>Biblioteca</span></div></div>
+                    <div class="gallery-item"><img src="imagen12.jpeg" alt="Foto 12"><div class="overlay"><span>Exposiciones</span></div></div>
+                    <div class="gallery-item"><img src="imagen13.jpeg" alt="Foto 13"><div class="overlay"><span>Concursos</span></div></div>
+                    <div class="gallery-item"><img src="imagen14.jpeg" alt="Foto 14"><div class="overlay"><span>Canchas</span></div></div>
+                    <div class="gallery-item"><img src="imgen15.jpeg" alt="Foto 15"><div class="overlay"><span>Fachada</span></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. SECCIÓN VALORES (CORREGIDA) -->
+        <section id="gifs" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Valores</h2>
+                    <div class="divider"></div>
+                    <p>Misión | Visión | Valores | Política de Calidad</p>
+                </div>
+                <div class="gifs-grid">
+                    <div class="gif-card">
+                        <i class="fas fa-hand-holding-heart" style="font-size: 2rem; color: #800020; margin-bottom: 12px;"></i>
+                        <h3>Lealtad</h3>
+                        <p>Identificación con la institución y sus ideales.</p>
+                    </div>
+                    <div class="gif-card">
+                        <i class="fas fa-award" style="font-size: 2rem; color: #800020; margin-bottom: 12px;"></i>
+                        <h3>Honor</h3>
+                        <p>Impulsa a comportarse de modo que merezca la consideración y respeto de la gente.</p>
+                    </div>
+                    <div class="gif-card">
+                        <i class="fas fa-users" style="font-size: 2rem; color: #800020; margin-bottom: 12px;"></i>
+                        <h3>Unidad y Trabajo</h3>
+                        <p>Unificación de esfuerzos para obtener excelentes resultados.</p>
+                    </div>
+                    <div class="gif-card">
+                        <i class="fas fa-user-graduate" style="font-size: 2rem; color: #800020; margin-bottom: 12px;"></i>
+                        <h3>Calidad Profesional</h3>
+                        <p>Personal calificado en constante formación.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- 9. SECCIÓN VIDEOS -->
+<section id="videos" class="section bg-beige">
+    <div class="container">
+        <div class="section-title">
+            <h2>Sección Multimedia: Videos</h2>
+            <div class="divider"></div>
+            <p>Conoce nuestras actividades a través de video</p>
+        </div>
+        <div class="videos-grid">
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video controls preload="metadata">
+                        <source src="institucional.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+                <h4>Presentación Institucional</h4>
+            </div>
+
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video controls preload="metadata">
+                        <source src="plantel.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+                <h4>Ultimas noticias</h4>
+            </div>
+
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video controls preload="metadata">
+                        <source src="tecnologicos.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+                <h4>itace</h4>
+            </div>
+
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <video controls preload="metadata">
+                        <source src="video.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+                <h4>Concurso BDG</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- 10. SECCIÓN AUDIO -->
+        <section id="audio" class="section text-center">
+            <div class="container">
+                <div class="audio-box">
+                    <i class="fas fa-music audio-icon"></i>
+                    <h3>Audio Institucional / Himno</h3>
+                    <p>Haz clic en reproducir para escuchar el audio institucional.</p>
+                    <audio id="audioPlayer" src="itace.mp3"></audio>
+                    <div class="audio-controls">
+                        <button id="playAudioBtn" class="btn btn-primary"><i class="fas fa-play"></i> Reproducir Audio</button>
+                        <button id="pauseAudioBtn" class="btn btn-secondary"><i class="fas fa-pause"></i> Pausar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. TABLA COMPARATIVA -->
+        <section id="comparativa" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Tabla Comparativa de Especialidades</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="table-responsive">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Especialidad / Área</th>
+                                <th>Tipo</th>
+                                <th>Habilidad Clave</th>
+                                <th>Fortaleza</th>
+                                <th>Enfoque</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>Mantenimiento Industrial</td><td>Técnico</td><td>Mecánica / Hidráulica</td><td>Trabajo en Planta</td><td>Práctico</td></tr>
+                            <tr><td>2</td><td>Programación</td><td>Técnico</td><td>Lógica de Código</td><td>Desarrollo Web/App</td><td>Digital</td></tr>
+                            <tr><td>3</td><td>Soporte Técnico</td><td>Técnico</td><td>Redes y Hardware</td><td>Diagnóstico Rápido</td><td>Servicio</td></tr>
+                            <tr><td>4</td><td>Diseño Gráfico</td><td>Técnico</td><td>Edición Digital</td><td>Creatividad Visual</td><td>Artístico</td></tr>
+                            <tr><td>5</td><td>Electrónica Industrial</td><td>Técnico</td><td>Circuitos e Automatización</td><td>Robótica</td><td>Tecnológico</td></tr>
+                            <tr><td>6</td><td>Control Escolar</td><td>Administración</td><td>Gestión de Trámites</td><td>Organización</td><td>Atención</td></tr>
+                            <tr><td>7</td><td>Prefectura</td><td>Orientación</td><td>Seguimiento Estudiantil</td><td>Disciplina y Orden</td><td>Formativo</td></tr>
+                            <tr><td>8</td><td>Vinculación</td><td>Coordinación</td><td>Convenios de Prácticas</td><td>Bolsa de Trabajo</td><td>Profesional</td></tr>
+                            <tr><td>9</td><td>Enfermería escolar</td><td>Salud</td><td>Primeros Auxilios</td><td>Atención Médica</td><td>Cuidado</td></tr>
+                            <tr><td>10</td><td>Auditorio / Cultura</td><td>Extracurricular</td><td>Expresión Artística</td><td>Eventos Masivos</td><td>Integral</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. CURIOSIDADES Y DATOS CLAVE -->
+        <section id="curiosidades" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Datos Curiosos del ITACE</h2>
+                    <div class="divider"></div>
+                </div>
+                <ul class="curiosities-list">
+                    <li><i class="fas fa-check-square"></i> El ITACE cuenta con equipamiento en talleres que simulan entornos laborales reales.</li>
+                    <li><i class="fas fa-check-square"></i> Mantiene convenios activos con empresas para prácticas profesionales directas.</li>
+                    <li><i class="fas fa-check-square"></i> Fomenta concursos estatales de prototipos y proyectos tecnológicos.</li>
+                    <li><i class="fas fa-check-square"></i> Sus colores representativos Guinda y Beige reflejan elegancia, compromiso e identidad.</li>
+                    <li><i class="fas fa-check-square"></i> Cuenta con actividades deportivas y culturales para la formación integral del alumno.</li>
+                    <li><i class="fas fa-check-square"></i> Sus egresados obtienen título y cédula profesional técnica con validez oficial.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 13. SECCIÓN DE CONTACTO -->
+        <section id="contacto" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contacto e Informes</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Dirección:</h4>
+                                <p>Av. Educación Técnica #123, Tamaulipas, México</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Teléfonos:</h4>
+                                <p>(834) 123-4567 / (834) 765-4321</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Correo:</h4>
+                                <p>contacto@itace.edu.mx</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensaje enviado con éxito.');">
+                        <h3>Envíanos un mensaje</h3>
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="email" placeholder="Correo electrónico" required>
+                        <textarea rows="4" placeholder="Escribe tu mensaje o consulta..." required></textarea>
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 14. PIE DE PÁGINA (Footer) -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>ITACE</h3>
+                <p>Instituto Tamaulipeco de Capacitación para el Empleo. Formando técnicos del futuro.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Hecho por</h3>
+                <p><strong>Alumno:</strong> Mei Li Dessiree David Muñoz</p>
+                <p><strong>Grupo:</strong> 502 B</p>
+                <p><strong>Año:</strong> 2026</p>
+            </div>
+            <div class="footer-col">
+                <h3>Créditos</h3>
+                <p>Iconos por FontAwesome. Recursos educativos e institucionales.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ITACE - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX MODAL PARA FOTOS -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-img" id="lightboxImg" src="" alt="Vista previa">
+    </div>
+
+    <!-- Archivo JS -->
+    <script src="script.js"></script>
+</body>
+</html>

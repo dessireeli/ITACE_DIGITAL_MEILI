@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITACE DIGITAL - Propuesta Institucional Plantel Reynosa</title>
+    <!-- FontAwesome para Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Archivo CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- AVISO PROYECTO ACADÉMICO -->
+    <div class="academic-notice">
+        <i class="fas fa-info-circle"></i> Propuesta Digital Académica - Proyecto | ITACE Reynosa - Grupo 502 B
+    </div>
+
+    <!-- 1. ENCABEZADO Y NAVEGACIÓN COMPLETA -->
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="logo-text">
+                <h1>ITACE</h1>
+                <span>Reynosa </span>
+            </div>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menú de Navegación">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="navbar" id="navbar">
+            <ul>
+                <li><a href="#portada" class="nav-link active"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="#historia" class="nav-link"><i class="fas fa-university"></i> Conócenos</a></li>
+                <li><a href="#carreras" class="nav-link"><i class="fas fa-laptop-code"></i> Oferta</a></li>
+                <li><a href="#instalaciones" class="nav-link"><i class="fas fa-building"></i> Instalaciones</a></li>
+                <li><a href="#vida-estudiantil" class="nav-link"><i class="fas fa-users"></i> Vida Estudiantil</a></li>
+                <li><a href="#proyectos" class="nav-link"><i class="fas fa-lightbulb"></i> Proyectos</a></li>
+                <li><a href="#noticias" class="nav-link"><i class="fas fa-newspaper"></i> Noticias</a></li>
+                <li><a href="#eventos" class="nav-link"><i class="fas fa-calendar-alt"></i> Eventos</a></li>
+                <li><a href="#admisiones" class="nav-link"><i class="fas fa-user-plus"></i> Admisiones</a></li>
+                <li><a href="#docentes" class="nav-link"><i class="fas fa-chalkboard-teacher"></i> Docentes</a></li>
+                <li><a href="#himnos" class="nav-link"><i class="fas fa-flag"></i> Identidad</a></li>
+                <li><a href="#galeria" class="nav-link"><i class="fas fa-images"></i> Galería</a></li>
+                <li><a href="#faqs" class="nav-link"><i class="fas fa-question-circle"></i> FAQs</a></li>
+                <li><a href="#contacto" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+        </nav>
+        <button id="themeToggleBtn" class="btn-theme" title="Cambiar Tema"><i class="fas fa-moon"></i></button>
+    </header>
+
+    <main>
+        <!-- 6.1 INICIO / PORTADA PRINCIPAL (Con Imagen al Lado Derecho) -->
+        <section id="portada" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">ITACE REYNOSA</span>
+                    <h1 class="hero-title">Formando Profesionales Técnicos de Excelencia</h1>
+                    <p class="hero-phrase">"Lealtad, Honor y Trabajo para el desarrollo de Tamaulipas."</p>
+                    <p class="hero-desc">Bienvenidos al portal institucional interactivo del Instituto Tamaulipeco de Capacitación para el Empleo.</p>
+                    <div class="hero-buttons">
+                        <a href="#carreras" class="btn btn-primary"><i class="fas fa-arrow-right"></i> Oferta Educativa</a>
+                        <a href="#admisiones" class="btn btn-secondary"><i class="fas fa-user-plus"></i> Admisiones</a>
+                    </div>
+                </div>
+                <!-- IMAGEN AL LADO DERECHO DE LA PANTALLA DE INICIO -->
+                <div class="hero-image-wrapper">
+                    <div class="hero-img-box">
+                        <img src="img/foto1.jpeg" alt="Fachada e Instalaciones ITACE Reynosa" class="hero-img">
+                        <span class="hero-img-badge"><i class="fas fa-camera"></i> Plantel Reynosa</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.2 CONOCE AL ITACE -->
+        <section id="historia" class="section">
+            <div class="container">
+                <div class="intro-img-container">
+                    <img src="img/imagen20.jpeg" alt="Historia y Trayectoria del ITACE" class="intro-img">
+                </div>
+
+                <div class="section-title">
+                    <h2>Conoce al ITACE</h2>
+                    <div class="divider"></div>
+                    <p>Trayectoria, compromiso y formación técnica de calidad</p>
+                </div>
+                <div class="history-grid">
+                    <article class="history-card">
+                        <div class="card-content">
+                            <h3><i class="fas fa-university"></i> Nuestra Historia</h3>
+                            <p>El Instituto Tamaulipeco de Capacitación para el Empleo es un organismo descentralizado enfocado en preparar técnicos calificados para el sector productivo.</p>
+                        </div>
+                    </article>
+                    <article class="history-card">
+                        <div class="card-content">
+                            <h3><i class="fas fa-bullseye"></i> Misión</h3>
+                            <p>Ofrecer bachillerato tecnológico y capacitación para el trabajo sustentada en estándares de calidad educativa y valores éticos.</p>
+                        </div>
+                    </article>
+                    <article class="history-card">
+                        <div class="card-content">
+                            <h3><i class="fas fa-eye"></i> Visión</h3>
+                            <p>Ser la institución líder en educación técnica en Tamaulipas, impulsando el desarrollo social, económico y profesional de nuestros egresados.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.2.1 PLANTELES INSTITUCIONALES -->
+        <section id="planteles" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Red de Planteles ITACE</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="planteles-grid">
+                    <article class="plantel-card">
+                        <div class="plantel-img-box">
+                            <img src="img/imagen29.jpg" alt="Plantel Victoria">
+                        </div>
+                        <div class="plantel-info">
+                            <h3>Plantel Victoria</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Cd. Victoria, Tamps.</p>
+                        </div>
+                    </article>
+                    <article class="plantel-card destacado">
+                        <span class="badge-plantel">Sede Actual</span>
+                        <div class="plantel-img-box">
+                            <img src="img/imagen28.jpg" alt="Plantel Reynosa">
+                        </div>
+                        <div class="plantel-info">
+                            <h3>Plantel Reynosa</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Reynosa, Tamps.</p>
+                        </div>
+                    </article>
+                    <article class="plantel-card">
+                        <div class="plantel-img-box">
+                            <img src="img/imagen30.jpg" alt="Plantel Matamoros">
+                        </div>
+                        <div class="plantel-info">
+                            <h3>Plantel Matamoros</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Matamoros, Tamps.</p>
+                        </div>
+                    </article>
+                    <article class="plantel-card">
+                        <div class="plantel-img-box">
+                            <img src="img/imagen31.jpg" alt="Plantel Altamira">
+                        </div>
+                        <div class="plantel-info">
+                            <h3>Plantel Altamira</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Altamira, Tamps.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.3 OFERTA EDUCATIVA -->
+        <section id="carreras" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Oferta Educativa - Plantel Reynosa</h2>
+                    <div class="divider"></div>
+                    <p>Carreras Técnicas Bachiller diseñadas para los retos industriales modernos</p>
+                </div>
+                <div class="cards-grid">
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/inteligencia.jpeg" alt="Inteligencia Artificial"></div>
+                        <div class="card-body">
+                            <span class="badge-card">Técnico Bachiller</span>
+                            <h3>Inteligencia Artificial</h3>
+                            <p>Algoritmos, análisis masivo de datos, machine learning y sistemas automatizados.</p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/ciber.jpeg" alt="Ciberseguridad"></div>
+                        <div class="card-body">
+                            <span class="badge-card">Técnico Bachiller</span>
+                            <h3>Ciberseguridad</h3>
+                            <p>Protección de infraestructuras críticas, auditoría informática y seguridad de datos.</p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/electronica.jpeg" alt="Semiconductores"></div>
+                        <div class="card-body">
+                            <span class="badge-card">Técnico Bachiller</span>
+                            <h3>Semiconductores y Microelectrónica</h3>
+                            <p>Diseño, ensamblaje y prueba de circuitos integrados y microchips.</p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/mantenimiento.jpeg" alt="Mantenimiento Industrial"></div>
+                        <div class="card-body">
+                            <span class="badge-card">Técnico Bachiller</span>
+                            <h3>Mantenimiento Industrial</h3>
+                            <p>Optimización, diagnóstico y reparación de maquinaria industrial pesada.</p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/automotris.jpeg" alt="Mantenimiento Automotriz"></div>
+                        <div class="card-body">
+                            <span class="badge-card">Técnico Bachiller</span>
+                            <h3>Mantenimiento Automotriz</h3>
+                            <p>Diagnóstico electrónico, sistemas mecánicos y mantenimiento de vehículos.</p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/diseno.jpeg" alt="Diseño Gráfico Digital"></div>
+                        <div class="card-body">
+                            <span class="badge-card">Técnico Bachiller</span>
+                            <h3>Diseño Gráfico Digital</h3>
+                            <p>Modelado, identidad visual, contenido multimedia y edición digital profesional.</p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/logistica.jpeg" alt="Logística"></div>
+                        <div class="card-body">
+                            <span class="badge-card">Técnico Bachiller</span>
+                            <h3>Logística</h3>
+                            <p>Gestión de inventarios, cadenas de suministro global y procesos de importación/exportación.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.4 INSTALACIONES -->
+        <section id="instalaciones" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Instalaciones del Plantel</h2>
+                    <div class="divider"></div>
+                    <p>Espacios equipados para la formación teórica y práctica</p>
+                </div>
+                <div class="history-grid">
+                    <article class="history-card">
+                        <div class="card-img-container"><img src="img/imagen17.jpeg" alt="Laboratorios de Cómputo"></div>
+                        <div class="card-content">
+                            <h3><i class="fas fa-laptop-code"></i> Laboratorios de Cómputo</h3>
+                            <p>Equipos de alto rendimiento para desarrollo de software, ciberseguridad e IA.</p>
+                        </div>
+                    </article>
+                    <article class="history-card">
+                        <div class="card-img-container"><img src="img/carrera4.jpeg" alt="Talleres Pesados"></div>
+                        <div class="card-content">
+                            <h3><i class="fas fa-cogs"></i> Talleres Especializados</h3>
+                            <p>Maquinaria real y estaciones de prueba para mantenimiento industrial y automotriz.</p>
+                        </div>
+                    </article>
+                    <article class="history-card">
+                        <div class="card-img-container"><img src="img/imagen18.jpeg" alt="Áreas Verdes y Recreativas"></div>
+                        <div class="card-content">
+                            <h3><i class="fas fa-tree"></i> Áreas Verdes y Deportivas</h3>
+                            <p>Canchas de usos múltiples y explanadas para el sano esparcimiento estudiantil.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.5 VIDA ESTUDIANTIL -->
+        <section id="vida-estudiantil" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Vida Estudiantil</h2>
+                    <div class="divider"></div>
+                    <p>Desarrollo integral, deporte, arte y compromiso comunitario</p>
+                </div>
+                <div class="cards-grid">
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/imagen25.jpg" alt="Clubes Deportivos"></div>
+                        <div class="card-body">
+                            <h3><i class="fas fa-trophy"></i> Clubes Deportivos</h3>
+                            <p>Equipos representativos de fútbol, baloncesto y voleibol en ligas intercolegiales.</p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/imagen24.jpg" alt="Actividades Culturales"></div>
+                        <div class="card-body">
+                            <h3><i class="fas fa-palette"></i> Talleres Culturales</h3>
+                            <p>Danza folclórica, música, artes plásticas y clubes de debate estudiantil.</p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/imagen19.jpeg" alt="Compromiso Social"></div>
+                        <div class="card-body">
+                            <h3><i class="fas fa-hands-helping"></i> Servicio y Comunidad</h3>
+                            <p>Brigadas ecológicas, campañas de colecta y actividades de responsabilidad social.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.6 PROYECTOS ESTUDIANTILES -->
+        <section id="proyectos" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Proyectos Estudiantiles Destacados</h2>
+                    <div class="divider"></div>
+                    <p>Innovaciones y prototipos desarrollados por alumnos del ITACE</p>
+                </div>
+                <div class="history-grid">
+                    <article class="history-card">
+                        <div class="card-img-container"><img src="img/imagen26.jpg" alt="Biotecnología y Cosmética Natural"></div>
+                        <div class="card-content">
+                            <h3><i class="fas fa-flask"></i> Cosmética Natural y Biotecnología</h3>
+                            <p><strong>Especialidad:</strong> Química e Innovación</p>
+                            <p>Desarrollo de pomadas, jabones y productos terapéuticos a base de flora regional como la anacahuita.</p>
+                        </div>
+                    </article>
+                    <article class="history-card">
+                        <div class="card-img-container"><img src="img/imagen27.jpeg" alt="Sistema de Punto de Venta"></div>
+                        <div class="card-content">
+                            <h3><i class="fas fa-code"></i> Software de Punto de Venta</h3>
+                            <p><strong>Especialidad:</strong> Programación Web</p>
+                            <p>Aplicación de control comercial e inventarios con interfaz intuitiva y consola administrativa.</p>
+                        </div>
+                    </article>
+                    <article class="history-card">
+                        <div class="card-img-container"><img src="img/imagen32.jpg" alt="Auditoría de Redes"></div>
+                        <div class="card-content">
+                            <h3><i class="fas fa-shield-alt"></i> Divulgación Científica y Experimentos Biotecnológicos</h3>
+                            <p><strong>Especialidad:</strong>Ciencias Básicas e Innovación Tecnológica</p>
+                            <p>Demostración interactiva de experimentos químicos, maquetas y proyectos científicos bajo el lema "Una invitación a la ciencia"[cite: 15].</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.7 NOTICIAS INSTITUCIONALES -->
+        <section id="noticias" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Noticias Institucionales</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="cards-grid">
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/imagen33.jpg" alt="Torneo Interno Amistoso de Ajedrez"></div>
+                        <div class="card-body">
+                            <span class="badge-card"><i class="fas fa-calendar-alt"></i> Vida Estudiantil</span>
+                            <h3>Torneo Interno de Ajedrez</h3>
+                            <p>Competencia organizada bajo el programa "ABC de las Emociones" para promover el pensamiento estratégico, la paciencia y la sana convivencia.</p>
+                        </div>
+                    </article>
+                    <article class="card-item">
+                        <div class="card-img-box"><img src="img/imagen34.jpg" alt="Convenio Sector Maquilador"></div>
+                        <div class="card-body">
+                            <span class="badge-card"><i class="fas fa-calendar-alt"></i> Vida Estudiantil</span>
+                            <h3>Maratón de Cuentos y Leyendas</h3>
+                            <p>Jornada literaria dedicada a revivir las historias, mitos y tradiciones de Tamaulipas para preservar la identidad cultural en los estudiantes</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.8 EVENTOS Y CONFERENCIAS -->
+        <section id="eventos" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Eventos y Conferencias</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="history-grid">
+                    <article class="history-card">
+                        <div class="card-img-container"><img src="img/imagen35.jpg" alt="Conferencia Industria 4.0"></div>
+                        <div class="card-content">
+                            <h3><i class="fas fa-chalkboard-teacher"></i>Encuentro de Ciencia COTACyT</h3>
+                            <p>Participación destacada de estudiantes en el ciclo de conferencias del COTACyT con experimentos científicos y actividades prácticas de innovación.</p>
+                        </div>
+                    </article>
+                    <article class="history-card">
+                        <div class="card-img-container"><img src="img/imagen36.jpg" alt="Ceremonias Cívicas"></div>
+                        <div class="card-content">
+                            <h3><i class="fas fa-flag"></i> Exposición TransformARTE</h3>
+                            <p>Participación de estudiantes del Club de Arte en el Museo del Ferrocarril, impulsando la expresión artística y el bienestar integral.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.9 ADMISIONES -->
+        <section id="admisiones" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Proceso de Admisión e Ingreso</h2>
+                    <div class="divider"></div>
+                    <p>Información oficial para aspirantes al ciclo escolar</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h3><i class="fas fa-file-alt"></i> Requisitos de Inscripción</h3>
+                        <ul style="padding-left: 20px; line-height: 1.8; color: var(--texto-suave);">
+                            <li>Certificado de Secundaria (Original y 2 copias).</li>
+                            <li>Acta de Nacimiento (Año en curso).</li>
+                            <li>CURP en formato actualizado.</li>
+                            <li>Comprobante de domicilio reciente.</li>
+                            <li>6 Fotografías tamaño infantil (B/N).</li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <h3><i class="fas fa-clock"></i> Horarios de Atención</h3>
+                        <p>Lunes a Viernes de 8:00 AM a 3:00 PM</p>
+                        <br>
+                        <a href="#contacto" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Solicitud de Informes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.10 DIRECTORIO DOCENTE PROFESIONAL -->
+        <section id="docentes" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Directorio Docente Profesional</h2>
+                    <div class="divider"></div>
+                    <p>Buscador interactivo de docentes por nombre, materia o área académica</p>
+                </div>
+
+                <div class="search-filter-box">
+                    <input type="text" id="teacherSearch" placeholder="🔍 Buscar por docente o materia..." class="search-input">
+                    <select id="academyFilter" class="filter-select">
+                        <option value="todos">Todas las Academias</option>
+                        <option value="Tecnología">Tecnología e Informática</option>
+                        <option value="Ciencias">Ciencias Básicas</option>
+                        <option value="Humanidades">Humanidades y Lenguaje</option>
+                    </select>
+                    <button id="clearSearchBtn" class="btn btn-secondary-dark"><i class="fas fa-undo"></i> Limpiar</button>
+                </div>
+
+                <div id="teachersGrid" class="cards-grid"></div>
+                <div id="noResults" class="no-results" style="display: none;">
+                    <i class="fas fa-exclamation-circle"></i> No se encontraron docentes que coincidan con la búsqueda.
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.11 IDENTIDAD Y ORGULLO ITACE -->
+        <section id="himnos" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Identidad y Orgullo ITACE</h2>
+                    <div class="divider"></div>
+                    <p>Símbolos institucionales e interpretaciones grabadas por la comunidad estudiantil</p>
+                </div>
+                <div class="videos-grid">
+                    <div class="video-card">
+                        <h4>Himno al ITACE</h4>
+                        <p style="font-size: 0.85rem; color: var(--texto-suave); margin-bottom: 10px;">Interpretación estudiantil representativa.</p>
+                        <audio controls style="width: 100%;">
+                            <source src="audio/himno1.mp4" type="audio/mpeg">
+                            Tu navegador no soporta audio.
+                        </audio>
+                    </div>
+
+                    <div class="video-card">
+                        <h4>Himno a Tamaulipas</h4>
+                        <p style="font-size: 0.85rem; color: var(--texto-suave); margin-bottom: 10px;">Canto cívico del estado de Tamaulipas.</p>
+                        <audio controls style="width: 100%;">
+                            <source src="audio/himno2.mp4" type="audio/mpeg">
+                            Tu navegador no soporta audio.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.12 GALERÍA MULTIMEDIA -->
+        <section id="galeria" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Galería Fotográfica</h2>
+                    <div class="divider"></div>
+                    <p>Haz clic en cualquier imagen para verla en tamaño completo</p>
+                </div>
+                <div class="gallery-descriptions-grid">
+                    <div class="facility-card">
+                        <div class="facility-img-box"><img src="img/imagen19.jpeg" alt="Colecta Teletón"></div>
+                        <div class="facility-info">
+                            <h4><i class="fas fa-heart"></i> Colecta Teletón</h4>
+                            <p>Participación activa en apoyo a causas comunitarias.</p>
+                        </div>
+                    </div>
+                    <div class="facility-card">
+                        <div class="facility-img-box"><img src="img/imagen15.jpeg" alt="Jardines del Plantel"></div>
+                        <div class="facility-info">
+                            <h4><i class="fas fa-leaf"></i> Espacios Verdes</h4>
+                            <p>Áreas de convivencia al aire libre para los alumnos.</p>
+                        </div>
+                    </div>
+                    <div class="facility-card">
+                        <div class="facility-img-box"><img src="img/imagen23.jpeg" alt="Evento Deportivo"></div>
+                        <div class="facility-info">
+                            <h4><i class="fas fa-running"></i> Carrera Atlética</h4>
+                            <p>Fomento al deporte y la convivencia saludable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.13 PREGUNTAS FRECUENTES (FAQS) -->
+        <section id="faqs" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Preguntas Frecuentes</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="faq-accordion">
+                    <details class="faq-item">
+                        <summary>¿Qué documento se obtiene al egresar del ITACE?</summary>
+                        <p>Certificado de Bachillerato Tecnológico y Título/Cédula Profesional Técnica expedida por la SEP.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>¿Existen opciones de becas para los alumnos?</summary>
+                        <p>Sí, los estudiantes pueden postularse a becas gubernamentales de desempeño y apoyo académico.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>¿Se realizan prácticas profesionales en empresas?</summary>
+                        <p>Sí, contamos con vinculación y convenios directos con el sector industrial y maquilador.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.14 CONTACTO Y UBICACIÓN -->
+        <section id="contacto" class="section bg-beige">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contacto e Informes</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Ubicación:</h4>
+                                <p>ITACE Plantel Reynosa, Tamaulipas, México</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Teléfonos:</h4>
+                                <p>(899) 924-0184 / (899) 925-2386</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Correo Institucional:</h4>
+                                <p>plantel.reynosa@itace.edu.mx</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Mensaje recibido. Gracias por contactar al ITACE.');">
+                        <h3>Enviar Mensaje</h3>
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="email" placeholder="Correo electrónico" required>
+                        <textarea rows="4" placeholder="Escribe tu consulta..." required></textarea>
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.15 CRÉDITOS Y FUENTES -->
+        <section id="creditos" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Créditos y Documentación Técnica</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-card" style="flex-direction: column; align-items: flex-start; gap: 8px;">
+                    <p><strong>Desarrollador / Alumno:</strong> Mei Li Dessiree David Muñoz</p>
+                    <p><strong>Grupo / Materia:</strong> 502 B - Desarrollo Web</p>
+                    <p><strong>Institución:</strong> ITACE Plantel Reynosa</p>
+                    <p><strong>Fecha de Entrega:</strong> Lunes Octubre del 2026</p>
+                    <p><strong>Fuentes Consultadas:</strong> Plan de estudios institucional, fotografías del plantel y archivos multimedia autorizados.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>ITACE Reynosa</h3>
+                <p>Instituto Tamaulipeco de Capacitación para el Empleo. Formando los técnicos que transforman Tamaulipas.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Proyecto Académico</h3>
+                <p><strong>Alumno:</strong> Mei Li Dessiree David Muñoz</p>
+                <p><strong>Grupo:</strong> 502 B</p>
+            </div>
+            <div class="footer-col">
+                <h3>Aviso Legal</h3>
+                <p>Propuesta estudiantil de portal web. Todos los derechos reservados 2026.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ITACE DIGITAL - Plantel Reynosa</p>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX MODAL PARA AMPLIAR FOTOS -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-img" id="lightboxImg" src="" alt="Vista Previa">
+        <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+
+    <!-- Archivo JS Externo -->
+    <script src="script.js"></script>
+</body>
+</html>
