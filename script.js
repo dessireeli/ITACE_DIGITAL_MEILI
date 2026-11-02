@@ -62,7 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Ciencias",
                     "materias": "Matemáticas",
                     "semestres": "1° y 3° Semestre",
-                    "perfil": "Doctorado. 2 años y medio de trayectoria en ITACE."
+                    "perfil": "Doctorado. 2 años y medio de trayectoria en ITACE.",
+                    "foto": "img/foto.jpg" // Puedes colocar aquí la ruta de la imagen
                 },
                 {
                     "nombre": "Ing. Carlos Melecio Carmona Olivares",
@@ -140,6 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Cultura Digital, Inteligencia Artificial",
                     "semestres": "1° y 3° Semestre",
                     "perfil": "Técnica en Informática, Ing. en Sistemas Computacionales y Maestría en Educación. 4 años en ITACE."
+                    "foto": "img/brenda.jpg"
                 },
                 {
                     "nombre": "Ing. Walter Allan Barrera Cerda",
@@ -251,8 +253,14 @@ document.addEventListener('DOMContentLoaded', () => {
         lista.forEach(docente => {
             const card = document.createElement('article');
             card.className = 'teacher-card';
+
+            // Comprueba si hay una foto definida para mostrarla en el círculo
+            const avatarHTML = docente.foto 
+                ? `<div class="teacher-avatar"><img src="${docente.foto}" alt="${docente.nombre}"></div>`
+                : `<div class="teacher-avatar"><i class="fas fa-user-tie" aria-hidden="true"></i></div>`;
+
             card.innerHTML = `
-                <div class="teacher-avatar"><i class="fas fa-user-tie" aria-hidden="true"></i></div>
+                ${avatarHTML}
                 <h3>${docente.nombre}</h3>
                 <span class="teacher-academy">${docente.academia}</span>
                 <p class="teacher-subjects"><strong>Materias:</strong> ${docente.materias}</p>
