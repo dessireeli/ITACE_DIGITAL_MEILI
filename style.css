@@ -714,6 +714,45 @@ body.dark-mode .section-title h2 {
 }
 
 /* ===================================================
+   AJUSTE UNIFORME DE SECCIÓN VIDEOS (4 EN LÍNEA)
+   =================================================== */
+#videos .videos-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 15px !important;
+    align-items: stretch !important;
+}
+
+#videos .video-card {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    height: 100% !important;
+    padding: 12px !important;
+}
+
+#videos .video-card video {
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    background-color: #000000 !important;
+    border-radius: 6px !important;
+}
+
+/* Adaptación responsiva para pantallas pequeñas y móviles */
+@media (max-width: 1024px) {
+    #videos .videos-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 600px) {
+    #videos .videos-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* ===================================================
    FAQS ACCORDION
    =================================================== */
 .faq-accordion {
