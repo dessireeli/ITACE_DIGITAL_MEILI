@@ -45,7 +45,7 @@
     "materias": "Conciencia Histórica, Formación Socioemocional, Lengua y Comunicación, Pensamiento Filosófico",
     "semestres": "1° y 5° Semestre",
     "perfil": "Lic. en Pedagogía, Maestría en Docencia y Doctorado en Educación. 5 años en ITACE.",
-    "foto": "img/liliana.jpg"
+    "foto": "img/liliana.jpeg"
   },
   {
     "nombre": "Mtra. Carla Valeria Morán Lerma",
@@ -61,7 +61,7 @@
     "materias": "Programación, Inteligencia Artificial, Cultura Digital",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Administración en Productividad y Calidad. Maestría en Educación. Laboratorio 5. 5 años en ITACE.",
-    "foto": "img/benjamin.jpg"
+    "foto": "img/benjamin.jpeg"
   },
   {
     "nombre": "Lic. Isidro de León Flores",
@@ -69,7 +69,7 @@
     "materias": "Educación Física Premilitar, Servicios Psicopedagógicos",
     "semestres": "Todos",
     "perfil": "Lic. en Psicopedagogía y Lic. en Pedagogía. 29 años en ITACE.",
-    "foto": "img/isidro.jpg"
+    "foto": "img/isidro.jpeg"
   },
   {
     "nombre": "Mtro. Norma Elena Torres Quiñones",
@@ -85,7 +85,7 @@
     "materias": "Lengua y Comunicación 1 y 3, Conciencia Histórica 2, Formación Socioemocional, Mantenimiento Petrolero, Mantenimiento Industrial",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Presidente de la Academia de Conciencia Histórica. Ing. Petrolero, Lic. en Pedagogía y Diplomado en Competencias Docentes. 33 años en ITACE. Salón B2.",
-    "foto": "img/luis.jpg"
+    "foto": "img/luis.jpeg"
   },
   {
     "nombre": "Ing. Brenda Itzel Herrera García",
@@ -93,7 +93,7 @@
     "materias": "Cultura Digital, Inteligencia Artificial",
     "semestres": "1° y 3° Semestre",
     "perfil": "Técnica en Informática, Ing. en Sistemas Computacionales y Maestría en Educación. 4 años en ITACE.",
-    "foto": "img/brenda.jpg"
+    "foto": "img/brenda.png"
   },
   {
     "nombre": "Ing. Walter Allan Barrera Cerda",
@@ -101,7 +101,7 @@
     "materias": "Inglés 3, Club de Rondalla",
     "semestres": "1°, 2° y 3° Semestre",
     "perfil": "Ingeniería Industrial y Administración. 13 años en ITACE. Participa en el club de Rondalla.",
-    "foto": "img/walter.jpg"
+    "foto": "img/walter.jpeg"
   },
   {
     "nombre": "L.C. Gerardo de la Rosa Ortega",
@@ -117,7 +117,7 @@
     "materias": "Ciencias Naturales, Humanidades",
     "semestres": "3° y 5° Semestre",
     "perfil": "Ingeniería Industrial y de Sistemas y Maestría en Educación.",
-    "foto": "img/erika.jpg"
+    "foto": "img/erika.jpeg"
   },
   {
     "nombre": "Lic. Samuel Gonzales de la Fuente",
@@ -125,7 +125,7 @@
     "materias": "Pensamiento Filosófico 1 y 3, Ciencias Sociales 1, Estudios Literarios",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Licenciatura en Administración de Empresas y Carrera Técnica en Ebanistería.",
-    "foto": "img/samuel.jpg"
+    "foto": "img/samuel.jpeg"
   },
   {
     "nombre": "Biól. Laura Esmeralda Heredia Blanco",
@@ -133,7 +133,7 @@
     "materias": "Ciencias 1, 3 y 5 (Física y Química)",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Bióloga especializada en Física y Química.",
-    "foto": "img/laura.jpg"
+    "foto": "img/laura.jpeg"
   },
   {
     "nombre": "Ing. Felipe Hernández González",
@@ -157,7 +157,7 @@
     "materias": "Programación, Cultura Digital, Cursos de Excel los Sábados",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Licenciatura en Información Administrativa y Maestría en Ciencias de la Enseñanza. Responsable del club de Robótica.",
-    "foto": "img/juanpablo.jpg"
+    "foto": "img/juanpablo.jpeg"
   },
   {
     "nombre": "Ing. Romualdo Guadalupe de la Cruz",
@@ -189,7 +189,7 @@
     "materias": "Ciencias Naturales, Experimentales y Tecnología 1, 3 y 5",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Biólogo especializado en ciencias experimentales y conservación natural.",
-    "foto": "img/trinidad.jpg"
+    "foto": "img/trinidad.jpeg"
   },
   {
     "nombre": "Mtra. Mildred Yasmín Reyes Norberto",
@@ -197,7 +197,7 @@
     "materias": "Temas Selectos de Matemáticas 2",
     "semestres": "5° Semestre",
     "perfil": "Ingeniería Química y Maestría en Docencia.",
-    "foto": "img/mildred.jpg"
+    "foto": "img/mildred.jpeg"
   },
   {
     "nombre": "Ing. José López Vázquez",
@@ -253,6 +253,6 @@
     "materias": "Prefectura",
     "semestres": "3° Semestre",
     "perfil": "Prefecto responsable de tercer semestre. 32 años en ITACE.",
-    "foto": "img/omar.jpg"
+    "foto": "img/omar.jpeg"
   }
 ]
