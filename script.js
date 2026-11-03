@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Cultura Digital, Inteligencia Artificial",
                     "semestres": "1° y 3° Semestre",
                     "perfil": "Técnica en Informática, Ing. en Sistemas Computacionales y Maestría en Educación. 4 años en ITACE.",
-                    "foto": "img/brenda.jpeg"
+                    "foto": "img/brenda.png"
                 },
                 {
                     "nombre": "Ing. Walter Allan Barrera Cerda",
