@@ -5,7 +5,7 @@
     "materias": "Matemáticas",
     "semestres": "1° y 3° Semestre",
     "perfil": "Doctorado. 2 años y medio de trayectoria en ITACE.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Ing. Carlos Melecio Carmona Olivares",
@@ -13,7 +13,7 @@
     "materias": "Diseño Gráfico, Inglés",
     "semestres": "1° y 3° Semestre",
     "perfil": "Lic. en Diseño Gráfico por la UVB y Maestría en Educación Básica por la UPN. 2 años en ITACE.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Lic. Erick Ramírez Solís",
@@ -29,7 +29,7 @@
     "materias": "Lengua y Comunicación",
     "semestres": "1° y 3° Semestre",
     "perfil": "Licenciatura y Maestría. 3 años de trayectoria en ITACE. Salón B1.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Mtra. Sandra Catalina Silva Camacho",
@@ -37,7 +37,7 @@
     "materias": "Comunicación",
     "semestres": "Todos (Actual 5° Semestre)",
     "perfil": "Maestría en Metodología de la Enseñanza. 25 años en ITACE. Salón B4.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Dra. Liliana Rosas Pacheco",
@@ -77,7 +77,7 @@
     "materias": "Ciencias Naturales e IT",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Ing. Químico y Maestro en Docencia. 26 años en ITACE. Salón C4.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Prof. Luis Enrique Lerma Martínez",
@@ -109,7 +109,7 @@
     "materias": "Inglés",
     "semestres": "5° Semestre",
     "perfil": "Licenciado en Contaduría. Especialista en docencia y lenguaje técnico profesional.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Mtra. Erika Aidé Pérez Ábrego",
@@ -125,7 +125,7 @@
     "materias": "Pensamiento Filosófico 1 y 3, Ciencias Sociales 1, Estudios Literarios",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Licenciatura en Administración de Empresas y Carrera Técnica en Ebanistería.",
-    "foto": "img/itace.jpg"
+    "foto": "img/samuel.jpeg"
   },
   {
     "nombre": "Biól. Laura Esmeralda Heredia Blanco",
@@ -141,7 +141,7 @@
     "materias": "Electrónica, Semiconductores, Módulo Eléctrico",
     "semestres": "3° y 5° Semestre",
     "perfil": "Ingeniería en Electrónica.",
-    "foto": "img/itace.jpg"
+    "foto": "img/felipe.jpeg"
   },
   {
     "nombre": "Mtra. Yuridia Lizbeth Cepeda Ramos",
@@ -149,7 +149,7 @@
     "materias": "Inglés, Temas Selectos de Matemáticas 2",
     "semestres": "5° Semestre",
     "perfil": "Ingeniera Industrial, Lic. en Matemáticas, Maestría en Educación e Innovación Educativa. Estudiante de Doctorado en Educación.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Mtro. Juan Pablo Torres Adame",
@@ -165,7 +165,7 @@
     "materias": "Pensamiento Matemático 1 y 3",
     "semestres": "1° y 3° Semestre",
     "perfil": "Especialista en Mantenimiento Industrial e Instalaciones Petroleras.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Mtra. Nohemí Quintanilla Arcos",
@@ -173,7 +173,7 @@
     "materias": "Prefectura y Disciplina Escolar",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Prefecta / Coordinación de convivencia escolar.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Dr. Ulises Solís Rieboles",
@@ -181,7 +181,7 @@
     "materias": "Ciencias Naturales 1, 3 y 5",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Químico Farmacéutico Biólogo, Maestrías en Análisis Clínicos y Educación. Doctorando en Educación.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Biól. Trinidad Hernández Barrera",
@@ -205,7 +205,7 @@
     "materias": "Módulo de Mantenimiento Industrial",
     "semestres": "3° y 5° Semestre (Turno Vespertino)",
     "perfil": "Ingeniero Industrial.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Prof. Rafael Villasana",
@@ -213,7 +213,7 @@
     "materias": "Conciencia Histórica, Cultura Digital, Lengua y Comunicación, Educación Física",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Especialista en Historia y Deportes.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Lic. Diana Janeth Uriegas Garza",
@@ -221,7 +221,7 @@
     "materias": "Habilidades para Hablar en Público, Matemáticas Básicas, Administración, Cultura Digital",
     "semestres": "1°, 3° y 5° Semestre",
     "perfil": "Lic. en Administración por el Instituto Tecnológico de Reynosa. 12 años en ITACE. Salón C-11. Participa en el club de Oratoria.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Ing. José Luis González López",
@@ -229,7 +229,7 @@
     "materias": "Matemáticas, Pensamiento Matemático 3, Módulo de Semiconductores",
     "semestres": "3° Semestre",
     "perfil": "Académico en Semiconductores y Matemáticas.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Ing. Javier Alfonso Acosta García",
@@ -237,7 +237,7 @@
     "materias": "Módulo de Mantenimiento Automotriz",
     "semestres": "3° y 5° Semestre",
     "perfil": "Ingeniería Electromecánica y Maestría en Ingeniería Industrial y Manufactura Avanzada.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Ing. Mario Alonso Santoyo Arroyo",
@@ -245,7 +245,7 @@
     "materias": "Módulo Profesional de Mantenimiento Industrial 2 y 4",
     "semestres": "3° y 5° Semestre",
     "perfil": "Ingeniería Industrial, Maestría en Educación y Carrera Técnica en Refrigeración y Climatización.",
-    "foto": "img/itace.jpg"
+    "foto": "img/itace.png"
   },
   {
     "nombre": "Omar Saúl González Alatriste",
