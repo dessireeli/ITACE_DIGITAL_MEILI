@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Matemáticas",
                     "semestres": "1° y 3° Semestre",
                     "perfil": "Doctorado. 2 años y medio de trayectoria en ITACE.",
-                    "foto": "img/bertha.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Ing. Carlos Melecio Carmona Olivares",
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Diseño Gráfico, Inglés",
                     "semestres": "1° y 3° Semestre",
                     "perfil": "Lic. en Diseño Gráfico por la UVB y Maestría en Educación Básica por la UPN. 2 años en ITACE.",
-                    "foto": "img/carlos.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Lic. Erick Ramírez Solís",
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Lengua y Comunicación",
                     "semestres": "1° y 3° Semestre",
                     "perfil": "Licenciatura y Maestría. 3 años de trayectoria en ITACE. Salón B1.",
-                    "foto": "img/grecia.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Mtra. Sandra Catalina Silva Camacho",
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Comunicación",
                     "semestres": "Todos (Actual 5° Semestre)",
                     "perfil": "Maestría en Metodología de la Enseñanza. 25 años en ITACE. Salón B4.",
-                    "foto": "img/sandra.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Dra. Liliana Rosas Pacheco",
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Pensamiento Filosófico, Ciencias Sociales, Cultura Digital",
                     "semestres": "1° y 3° Semestre",
                     "perfil": "Maestría. 33 años de trayectoria en ITACE.",
-                    "foto": "img/carla.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Ing. Benjamin Limón Martínez",
@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Ciencias Naturales e IT",
                     "semestres": "1°, 3° y 5° Semestre",
                     "perfil": "Ing. Químico y Maestro en Docencia. 26 años en ITACE. Salón C4.",
-                    "foto": "img/norma.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Prof. Luis Enrique Lerma Martínez",
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Inglés",
                     "semestres": "5° Semestre",
                     "perfil": "Licenciado en Contaduría. Especialista en docencia y lenguaje técnico profesional.",
-                    "foto": "img/gerardo.jpg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Mtra. Erika Aidé Pérez Ábrego",
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Electrónica, Semiconductores, Módulo Eléctrico",
                     "semestres": "3° y 5° Semestre",
                     "perfil": "Ingeniería en Electrónica.",
-                    "foto": "img/felipe.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Mtra. Yuridia Lizbeth Cepeda Ramos",
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Inglés, Temas Selectos de Matemáticas 2",
                     "semestres": "5° Semestre",
                     "perfil": "Ingeniera Industrial, Lic. en Matemáticas, Maestría en Educación e Innovación Educativa. Estudiante de Doctorado en Educación.",
-                    "foto": "img/yuridia.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Mtro. Juan Pablo Torres Adame",
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Pensamiento Matemático 1 y 3",
                     "semestres": "1° y 3° Semestre",
                     "perfil": "Especialista en Mantenimiento Industrial e Instalaciones Petroleras.",
-                    "foto": "img/romualdo.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Mtra. Nohemí Quintanilla Arcos",
@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Prefectura y Disciplina Escolar",
                     "semestres": "1°, 3° y 5° Semestre",
                     "perfil": "Prefecta / Coordinación de convivencia escolar.",
-                    "foto": "img/nohemi.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Dr. Ulises Solís Rieboles",
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Ciencias Naturales 1, 3 y 5",
                     "semestres": "1°, 3° y 5° Semestre",
                     "perfil": "Químico Farmacéutico Biólogo, Maestrías en Análisis Clínicos y Educación. Doctorando en Educación.",
-                    "foto": "img/ulises.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Biól. Trinidad Hernández Barrera",
@@ -263,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Módulo de Mantenimiento Industrial",
                     "semestres": "3° y 5° Semestre (Turno Vespertino)",
                     "perfil": "Ingeniero Industrial.",
-                    "foto": "img/joselopez.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Prof. Rafael Villasana",
@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Conciencia Histórica, Cultura Digital, Lengua y Comunicación, Educación Física",
                     "semestres": "1°, 3° y 5° Semestre",
                     "perfil": "Especialista en Historia y Deportes.",
-                    "foto": "img/villasana.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Lic. Diana Janeth Uriegas Garza",
@@ -279,7 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Habilidades para Hablar en Público, Matemáticas Básicas, Administración, Cultura Digital",
                     "semestres": "1°, 3° y 5° Semestre",
                     "perfil": "Lic. en Administración por el Instituto Tecnológico de Reynosa. 12 años en ITACE. Salón C-11. Participa en el club de Oratoria.",
-                    "foto": "img/diana.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Ing. José Luis González López",
@@ -287,7 +287,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Matemáticas, Pensamiento Matemático 3, Módulo de Semiconductores",
                     "semestres": "3° Semestre",
                     "perfil": "Académico en Semiconductores y Matemáticas.",
-                    "foto": "img/joseluis.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Ing. Javier Alfonso Acosta García",
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Módulo de Mantenimiento Automotriz",
                     "semestres": "3° y 5° Semestre",
                     "perfil": "Ingeniería Electromecánica y Maestría en Ingeniería Industrial y Manufactura Avanzada.",
-                    "foto": "img/javier.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Ing. Mario Alonso Santoyo Arroyo",
@@ -303,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Módulo Profesional de Mantenimiento Industrial 2 y 4",
                     "semestres": "3° y 5° Semestre",
                     "perfil": "Ingeniería Industrial, Maestría en Educación y Carrera Técnica en Refrigeración y Climatización.",
-                    "foto": "img/mario.jpeg"
+                    "foto": "img/itace.jpg"
                 },
                 {
                     "nombre": "Omar Saúl González Alatriste",
