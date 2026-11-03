@@ -417,4 +417,16 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // 5. CONTROL MULTIMEDIA (Pausa automática de audio y video al reproducir otro)
+    const mediaElements = document.querySelectorAll('video, audio');
+    mediaElements.forEach(media => {
+        media.addEventListener('play', () => {
+            mediaElements.forEach(otherMedia => {
+                if (otherMedia !== media) {
+                    otherMedia.pause();
+                }
+            });
+        });
+    });
 });
