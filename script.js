@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             renderDocentes(docentesData);
         } catch (error) {
             console.warn('Cargando respaldo local completo de docentes...', error);
-            // DIRECTORY DOCENTE CON LA INFORMACIÓN EXTRAÍDA Y UNIFICADA (SIN DUPLICADOS)
+            // DIRECTORY DOCENTE UNIFICADO Y SIN DUPLICADOS (32 DOCENTES)
             docentesData = [
                 {
                     "nombre": "Dra. Bertha Alicia Zapata Aldape",
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Tecnología",
                     "materias": "Diseño Gráfico, Inglés",
                     "semestres": "1° y 3° Semestre",
-                    "perfil": "Lic. en Diseño Gráfico por la UANL. 2 años de trayectoria en ITACE.",
+                    "perfil": "Lic. en Diseño Gráfico por la UVB y Maestría en Educación Básica por la UPN. 2 años en ITACE.",
                     "foto": "img/carlos.jpg"
                 },
                 {
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Humanidades",
                     "materias": "Lengua y Comunicación",
                     "semestres": "1° y 3° Semestre",
-                    "perfil": "Licenciatura y Maestría. 3 años de trayectoria en ITACE. Salón C-10.",
+                    "perfil": "Licenciatura y Maestría. 3 años de trayectoria en ITACE. Salón B1.",
                     "foto": "img/grecia.jpg"
                 },
                 {
@@ -94,13 +94,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Humanidades",
                     "materias": "Comunicación",
                     "semestres": "Todos (Actual 5° Semestre)",
-                    "perfil": "Maestría en Metodología de la Enseñanza. 25 años en ITACE. Salón C-6.",
+                    "perfil": "Maestría en Metodología de la Enseñanza. 25 años en ITACE. Salón B4.",
                     "foto": "img/sandra.jpg"
                 },
                 {
                     "nombre": "Dra. Liliana Rosas Pacheco",
                     "academia": "Humanidades",
-                    "materias": "Humanidades 1, Pensamiento Filosófico, Conciencia Histórica, Lengua y Comunicación, Formación Socioemocional",
+                    "materias": "Conciencia Histórica, Formación Socioemocional, Lengua y Comunicación, Pensamiento Filosófico",
                     "semestres": "1° y 5° Semestre",
                     "perfil": "Lic. en Pedagogía, Maestría en Docencia y Doctorado en Educación. 5 años en ITACE.",
                     "foto": "img/liliana.jpg"
@@ -118,14 +118,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Tecnología",
                     "materias": "Programación, Inteligencia Artificial, Cultura Digital",
                     "semestres": "1°, 3° y 5° Semestre",
-                    "perfil": "Administración en Productividad y Calidad, Informática en Sistemas y Maestría en Educación. 5 años en ITACE.",
+                    "perfil": "Administración en Productividad y Calidad. Maestría en Educación. Laboratorio 5. 5 años en ITACE.",
                     "foto": "img/benjamin.jpg"
                 },
                 {
                     "nombre": "Lic. Isidro de León Flores",
                     "academia": "Humanidades",
                     "materias": "Educación Física Premilitar, Servicios Psicopedagógicos",
-                    "semestres": "1°, 3° y 5° Semestre",
+                    "semestres": "Todos",
                     "perfil": "Lic. en Psicopedagogía y Lic. en Pedagogía. 29 años en ITACE.",
                     "foto": "img/isidro.jpg"
                 },
@@ -134,15 +134,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Ciencias",
                     "materias": "Ciencias Naturales e IT",
                     "semestres": "1°, 3° y 5° Semestre",
-                    "perfil": "Ing. Químico y Maestro en Docencia. 26 años en ITACE. Salón C-4.",
+                    "perfil": "Ing. Químico y Maestro en Docencia. 26 años en ITACE. Salón C4.",
                     "foto": "img/norma.jpg"
                 },
                 {
                     "nombre": "Prof. Luis Enrique Lerma Martínez",
                     "academia": "Humanidades",
-                    "materias": "Conciencia Histórica 2, Socioemocional 1, Lengua y Comunicación 1 y 3",
+                    "materias": "Lengua y Comunicación 1 y 3, Conciencia Histórica 2, Formación Socioemocional, Mantenimiento Petrolero, Mantenimiento Industrial",
                     "semestres": "1°, 3° y 5° Semestre",
-                    "perfil": "Presidente de la Academia de Conciencia Histórica. Lic. en Pedagogía, Ing. Petrolero y Diplomado en Competencias Docentes. 33 años en ITACE. Salón C-12.",
+                    "perfil": "Presidente de la Academia de Conciencia Histórica. Ing. Petrolero, Lic. en Pedagogía y Diplomado en Competencias Docentes. 33 años en ITACE. Salón B2.",
                     "foto": "img/luis.jpg"
                 },
                 {
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Ciencias",
                     "materias": "Ciencias Naturales, Humanidades",
                     "semestres": "3° y 5° Semestre",
-                    "perfil": "Ingeniería Industrial en Sistemas y Maestría en Educación.",
+                    "perfil": "Ingeniería Industrial y de Sistemas y Maestría en Educación.",
                     "foto": "img/erika.jpg"
                 },
                 {
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     "nombre": "Ing. Felipe Hernández González",
                     "academia": "Tecnología",
-                    "materias": "Módulo de Electrónica y Semiconductores, Lengua y Comunicación 1 y 3, Conciencia Histórica 2",
+                    "materias": "Electrónica, Semiconductores, Módulo Eléctrico",
                     "semestres": "3° y 5° Semestre",
                     "perfil": "Ingeniería en Electrónica.",
                     "foto": "img/felipe.jpg"
@@ -206,15 +206,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Humanidades",
                     "materias": "Inglés, Temas Selectos de Matemáticas 2",
                     "semestres": "5° Semestre",
-                    "perfil": "Ingeniera Industrial, Lic. en Matemáticas, Maestría en Educación e Innovación Educativa, Estudiante de Doctorado en Educación.",
+                    "perfil": "Ingeniera Industrial, Lic. en Matemáticas, Maestría en Educación e Innovación Educativa. Estudiante de Doctorado en Educación.",
                     "foto": "img/yuridia.jpg"
                 },
                 {
                     "nombre": "Mtro. Juan Pablo Torres Adame",
                     "academia": "Tecnología",
-                    "materias": "Programación, Cultura Digital, Club de Robótica",
+                    "materias": "Programación, Cultura Digital, Cursos de Excel los Sábados",
                     "semestres": "1°, 3° y 5° Semestre",
-                    "perfil": "Licenciatura en Información Administrativa y Maestría en Ciencias de la Enseñanza. Responsable del club de Robótica e imparte cursos de Excel los sábados.",
+                    "perfil": "Licenciatura en Información Administrativa y Maestría en Ciencias de la Enseñanza. Responsable del club de Robótica.",
                     "foto": "img/juanpablo.jpg"
                 },
                 {
@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Ciencias",
                     "materias": "Ciencias Naturales 1, 3 y 5",
                     "semestres": "1°, 3° y 5° Semestre",
-                    "perfil": "Químico Farmacéutico Biólogo, Maestría en Análisis Clínicos y Educación. Doctorando en Educación.",
+                    "perfil": "Químico Farmacéutico Biólogo, Maestrías en Análisis Clínicos y Educación. Doctorando en Educación.",
                     "foto": "img/ulises.jpg"
                 },
                 {
@@ -261,14 +261,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     "nombre": "Ing. José López Vázquez",
                     "academia": "Tecnología",
                     "materias": "Módulo de Mantenimiento Industrial",
-                    "semestres": "3° y 5° Semestre",
+                    "semestres": "3° y 5° Semestre (Turno Vespertino)",
                     "perfil": "Ingeniero Industrial.",
                     "foto": "img/joselopez.jpg"
                 },
                 {
                     "nombre": "Prof. Rafael Villasana",
                     "academia": "Humanidades",
-                    "materias": "Conciencia Histórica, Cultura Digital, Educación Física",
+                    "materias": "Conciencia Histórica, Cultura Digital, Lengua y Comunicación, Educación Física",
                     "semestres": "1°, 3° y 5° Semestre",
                     "perfil": "Especialista en Historia y Deportes.",
                     "foto": "img/villasana.jpg"
@@ -276,15 +276,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     "nombre": "Lic. Diana Janeth Uriegas Garza",
                     "academia": "Humanidades",
-                    "materias": "Habilidades para Hablar en Público, Administración, Cultura Digital",
+                    "materias": "Habilidades para Hablar en Público, Matemáticas Básicas, Administración, Cultura Digital",
                     "semestres": "1°, 3° y 5° Semestre",
-                    "perfil": "Lic. en Administración con Especialidad en Recursos Humanos. 12 años en ITACE. Salón C-11.",
+                    "perfil": "Lic. en Administración por el Instituto Tecnológico de Reynosa. 12 años en ITACE. Salón C-11. Participa en el club de Oratoria.",
                     "foto": "img/diana.jpg"
                 },
                 {
                     "nombre": "Ing. José Luis González López",
                     "academia": "Tecnología",
-                    "materias": "Matemáticas, Pensamiento Matemático, Módulo de Semiconductores",
+                    "materias": "Matemáticas, Pensamiento Matemático 3, Módulo de Semiconductores",
                     "semestres": "3° Semestre",
                     "perfil": "Académico en Semiconductores y Matemáticas.",
                     "foto": "img/joseluis.jpg"
@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     "nombre": "Ing. Mario Alonso Santoyo Arroyo",
                     "academia": "Tecnología",
-                    "materias": "Módulo de Mantenimiento Industrial",
+                    "materias": "Módulo Profesional de Mantenimiento Industrial 2 y 4",
                     "semestres": "3° y 5° Semestre",
                     "perfil": "Ingeniería Industrial, Maestría en Educación y Carrera Técnica en Refrigeración y Climatización.",
                     "foto": "img/mario.jpg"
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Humanidades",
                     "materias": "Prefectura",
                     "semestres": "3° Semestre",
-                    "perfil": "Prefecto responsable de tercer semestre. 23 años en ITACE.",
+                    "perfil": "Prefecto responsable de tercer semestre. 32 años en ITACE.",
                     "foto": "img/omar.jpg"
                 }
             ];
