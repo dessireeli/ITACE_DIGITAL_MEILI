@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Matemáticas",
                     "semestres": "1° y 3° Semestre",
                     "perfil": "Doctorado. 2 años y medio de trayectoria en ITACE.",
-                    "foto": "img/foto.jpg" // Puedes colocar aquí la ruta de la imagen
+                    "foto": "img/foto.jpg"
                 },
                 {
                     "nombre": "Ing. Carlos Melecio Carmona Olivares",
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "academia": "Tecnología",
                     "materias": "Cultura Digital, Inteligencia Artificial",
                     "semestres": "1° y 3° Semestre",
-                    "perfil": "Técnica en Informática, Ing. en Sistemas Computacionales y Maestría en Educación. 4 años en ITACE."
+                    "perfil": "Técnica en Informática, Ing. en Sistemas Computacionales y Maestría en Educación. 4 años en ITACE.",
                     "foto": "img/brenda.jpg"
                 },
                 {
@@ -254,7 +254,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('article');
             card.className = 'teacher-card';
 
-            // Comprueba si hay una foto definida para mostrarla en el círculo
             const avatarHTML = docente.foto 
                 ? `<div class="teacher-avatar"><img src="${docente.foto}" alt="${docente.nombre}"></div>`
                 : `<div class="teacher-avatar"><i class="fas fa-user-tie" aria-hidden="true"></i></div>`;
