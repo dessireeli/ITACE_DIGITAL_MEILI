@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 3. DIRECTORIO DOCENTE (Carga JSON + Filtros + Búsqueda)
+    // 3. DIRECTORIO DOCENTE (Carga JSON + Filtros + Búsqueda insensible a acentos/mayúsculas)
     let docentesData = [];
     const teachersGrid = document.getElementById('teachersGrid');
     const teacherSearch = document.getElementById('teacherSearch');
@@ -43,19 +43,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const clearSearchBtn = document.getElementById('clearSearchBtn');
     const noResults = document.getElementById('noResults');
 
+    // Normaliza textos removiendo diacríticos (acentos/tilde) y convirtiendo a minúsculas
     function normalizarTexto(texto) {
-        return (texto || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        return (texto || "")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase();
     }
 
-    async function cargarDocentesJSON() {
+    async function cargarDocentes() {
         try {
             const respuesta = await fetch('docentes.json');
-            if (!respuesta.ok) throw new Error('No se pudo cargar el archivo docentes.json');
+            if (!respuesta.ok) throw new Error('Servidor local no disponible o archivo no encontrado');
             docentesData = await respuesta.json();
             renderDocentes(docentesData);
         } catch (error) {
-            console.warn('Cargando respaldo local completo de docentes...', error);
-            // RESPALDO CON EXTENSIONES DE IMAGEN CORREGIDAS
+            console.info('Cargando respaldo integrado de la plantilla docente...', error);
+            // Respaldo completo de la plantilla docente para funcionamiento offline
             docentesData = [
                 {
                     "nombre": "Dra. Bertha Alicia Zapata Aldape",
@@ -111,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Pensamiento Filosófico, Ciencias Sociales, Cultura Digital",
                     "semestres": "1° y 3° Semestre",
                     "perfil": "Maestría. 33 años de trayectoria en ITACE.",
-                    "foto": "img/itace.jpg"
+                    "foto": "img/carla.jpeg"
                 },
                 {
                     "nombre": "Ing. Benjamin Limón Martínez",
@@ -199,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     "materias": "Electrónica, Semiconductores, Módulo Eléctrico",
                     "semestres": "3° y 5° Semestre",
                     "perfil": "Ingeniería en Electrónica.",
-                    "foto": "img/itace.jpg"
+                    "foto": "img/felipe.jpeg"
                 },
                 {
                     "nombre": "Mtra. Yuridia Lizbeth Cepeda Ramos",
@@ -376,7 +380,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
-        cargarDocentesJSON();
+        cargarDocentes();
     }
 
     // 4. GALERÍA / LIGHTBOX
